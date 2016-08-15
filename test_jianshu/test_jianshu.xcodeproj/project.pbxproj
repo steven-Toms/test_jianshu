@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B90ED9651D6271FD0085A075 /* jianshu_TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B90ED9641D6271FD0085A075 /* jianshu_TabBarViewController.m */; };
 		B9971D8D1D6264D900688FF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9971D8C1D6264D900688FF7 /* main.m */; };
 		B9971D901D6264D900688FF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9971D8F1D6264D900688FF7 /* AppDelegate.m */; };
 		B9971D981D6264D900688FF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9971D971D6264D900688FF7 /* Assets.xcassets */; };
@@ -33,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B90ED9631D6271FD0085A075 /* jianshu_TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jianshu_TabBarViewController.h; sourceTree = "<group>"; };
+		B90ED9641D6271FD0085A075 /* jianshu_TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jianshu_TabBarViewController.m; sourceTree = "<group>"; };
 		B9971D881D6264D900688FF7 /* test_jianshu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_jianshu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9971D8C1D6264D900688FF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B9971D8E1D6264D900688FF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -73,6 +76,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B90ED95F1D6271010085A075 /* AppDeleagete_perpare */ = {
+			isa = PBXGroup;
+			children = (
+				B90ED9631D6271FD0085A075 /* jianshu_TabBarViewController.h */,
+				B90ED9641D6271FD0085A075 /* jianshu_TabBarViewController.m */,
+			);
+			name = AppDeleagete_perpare;
+			sourceTree = "<group>";
+		};
 		B9971D7F1D6264D900688FF7 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +108,7 @@
 		B9971D8A1D6264D900688FF7 /* test_jianshu */ = {
 			isa = PBXGroup;
 			children = (
+				B90ED95F1D6271010085A075 /* AppDeleagete_perpare */,
 				B9971D8E1D6264D900688FF7 /* AppDelegate.h */,
 				B9971D8F1D6264D900688FF7 /* AppDelegate.m */,
 				B9971D971D6264D900688FF7 /* Assets.xcassets */,
@@ -265,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9971D901D6264D900688FF7 /* AppDelegate.m in Sources */,
+				B90ED9651D6271FD0085A075 /* jianshu_TabBarViewController.m in Sources */,
 				B9971D8D1D6264D900688FF7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
