@@ -1,18 +1,18 @@
 //
-//  jianshu_TabBarViewController.m
-//  test_jianshu
+//  FF_FindViewController.m
+//  FFTestCustomTabBar
 //
-//  Created by mac-Win on 16/8/16.
+//  Created by mac-Win on 16/8/17.
 //  Copyright © 2016年 mac-Win. All rights reserved.
 //
 
-#import "jianshu_TabBarViewController.h"
+#import "FF_FindViewController.h"
 
-@interface jianshu_TabBarViewController ()
+@interface FF_FindViewController ()
 
 @end
 
-@implementation jianshu_TabBarViewController
+@implementation FF_FindViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -1,12 +1,13 @@
 //
 //  AppDelegate.m
-//  test_jianshu
+//  FFTestCustomTabBar
 //
-//  Created by mac-Win on 16/8/16.
+//  Created by mac-Win on 16/8/17.
 //  Copyright © 2016年 mac-Win. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "FFCostomViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,8 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.backgroundColor = [UIColor redColor];
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    FFCostomViewController* FF_CostomVC = [[FFCostomViewController alloc]init];
+    self.window.rootViewController = FF_CostomVC;
+    [self.window makeKeyAndVisible];
+    
     // Override point for customization after application launch.
     return YES;
 }

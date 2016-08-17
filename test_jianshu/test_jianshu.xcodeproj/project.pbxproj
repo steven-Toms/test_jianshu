@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B90ED9651D6271FD0085A075 /* jianshu_TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B90ED9641D6271FD0085A075 /* jianshu_TabBarViewController.m */; };
 		B9971D8D1D6264D900688FF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9971D8C1D6264D900688FF7 /* main.m */; };
-		B9971D901D6264D900688FF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9971D8F1D6264D900688FF7 /* AppDelegate.m */; };
 		B9971D981D6264D900688FF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9971D971D6264D900688FF7 /* Assets.xcassets */; };
 		B9971D9B1D6264D900688FF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9971D991D6264D900688FF7 /* LaunchScreen.storyboard */; };
 		B9971DA61D6264D900688FF7 /* test_jianshuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9971DA51D6264D900688FF7 /* test_jianshuTests.m */; };
 		B9971DB11D6264D900688FF7 /* test_jianshuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9971DB01D6264D900688FF7 /* test_jianshuUITests.m */; };
+		B9D479B31D64888A0099E28D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D479B21D64888A0099E28D /* AppDelegate.m */; };
+		B9D479B91D6488CA0099E28D /* FFCostomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D479B61D6488CA0099E28D /* FFCostomTabBar.m */; };
+		B9D479BA1D6488CA0099E28D /* FFCostomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D479B81D6488CA0099E28D /* FFCostomViewController.m */; };
+		B9D479C41D64891D0099E28D /* FF_FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D479C31D64891D0099E28D /* FF_FindViewController.m */; };
+		B9D479C71D6489240099E28D /* FF_CareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D479C61D6489240099E28D /* FF_CareViewController.m */; };
+		B9D479CA1D64892E0099E28D /* FF_MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D479C91D64892D0099E28D /* FF_MeViewController.m */; };
+		B9D479CD1D6489360099E28D /* FF_MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D479CC1D6489360099E28D /* FF_MessageViewController.m */; };
+		B9D479D01D64893E0099E28D /* FF_WriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D479CF1D64893E0099E28D /* FF_WriteViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B90ED9631D6271FD0085A075 /* jianshu_TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jianshu_TabBarViewController.h; sourceTree = "<group>"; };
-		B90ED9641D6271FD0085A075 /* jianshu_TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jianshu_TabBarViewController.m; sourceTree = "<group>"; };
 		B9971D881D6264D900688FF7 /* test_jianshu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_jianshu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9971D8C1D6264D900688FF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B9971D8E1D6264D900688FF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B9971D8F1D6264D900688FF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B9971D971D6264D900688FF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9971D9A1D6264D900688FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9971D9C1D6264D900688FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,22 @@
 		B9971DAC1D6264D900688FF7 /* test_jianshuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_jianshuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9971DB01D6264D900688FF7 /* test_jianshuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_jianshuUITests.m; sourceTree = "<group>"; };
 		B9971DB21D6264D900688FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9D479B11D64888A0099E28D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B9D479B21D64888A0099E28D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B9D479B51D6488CA0099E28D /* FFCostomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFCostomTabBar.h; sourceTree = "<group>"; };
+		B9D479B61D6488CA0099E28D /* FFCostomTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFCostomTabBar.m; sourceTree = "<group>"; };
+		B9D479B71D6488CA0099E28D /* FFCostomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFCostomViewController.h; sourceTree = "<group>"; };
+		B9D479B81D6488CA0099E28D /* FFCostomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFCostomViewController.m; sourceTree = "<group>"; };
+		B9D479C21D64891D0099E28D /* FF_FindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FF_FindViewController.h; sourceTree = "<group>"; };
+		B9D479C31D64891D0099E28D /* FF_FindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FF_FindViewController.m; sourceTree = "<group>"; };
+		B9D479C51D6489240099E28D /* FF_CareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FF_CareViewController.h; sourceTree = "<group>"; };
+		B9D479C61D6489240099E28D /* FF_CareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FF_CareViewController.m; sourceTree = "<group>"; };
+		B9D479C81D64892D0099E28D /* FF_MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FF_MeViewController.h; sourceTree = "<group>"; };
+		B9D479C91D64892D0099E28D /* FF_MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FF_MeViewController.m; sourceTree = "<group>"; };
+		B9D479CB1D6489360099E28D /* FF_MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FF_MessageViewController.h; sourceTree = "<group>"; };
+		B9D479CC1D6489360099E28D /* FF_MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FF_MessageViewController.m; sourceTree = "<group>"; };
+		B9D479CE1D64893E0099E28D /* FF_WriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FF_WriteViewController.h; sourceTree = "<group>"; };
+		B9D479CF1D64893E0099E28D /* FF_WriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FF_WriteViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,15 +94,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B90ED95F1D6271010085A075 /* AppDeleagete_perpare */ = {
-			isa = PBXGroup;
-			children = (
-				B90ED9631D6271FD0085A075 /* jianshu_TabBarViewController.h */,
-				B90ED9641D6271FD0085A075 /* jianshu_TabBarViewController.m */,
-			);
-			name = AppDeleagete_perpare;
-			sourceTree = "<group>";
-		};
 		B9971D7F1D6264D900688FF7 = {
 			isa = PBXGroup;
 			children = (
@@ -108,9 +117,14 @@
 		B9971D8A1D6264D900688FF7 /* test_jianshu */ = {
 			isa = PBXGroup;
 			children = (
-				B90ED95F1D6271010085A075 /* AppDeleagete_perpare */,
-				B9971D8E1D6264D900688FF7 /* AppDelegate.h */,
-				B9971D8F1D6264D900688FF7 /* AppDelegate.m */,
+				B9D479C11D6489120099E28D /* Write */,
+				B9D479C01D6489090099E28D /* Message */,
+				B9D479BF1D6489050099E28D /* Care */,
+				B9D479BE1D6489000099E28D /* Me */,
+				B9D479BC1D6488DE0099E28D /* Find */,
+				B9D479B41D6488C00099E28D /* Appdelegate_FFCustom */,
+				B9D479B11D64888A0099E28D /* AppDelegate.h */,
+				B9D479B21D64888A0099E28D /* AppDelegate.m */,
 				B9971D971D6264D900688FF7 /* Assets.xcassets */,
 				B9971D991D6264D900688FF7 /* LaunchScreen.storyboard */,
 				B9971D9C1D6264D900688FF7 /* Info.plist */,
@@ -143,6 +157,62 @@
 				B9971DB21D6264D900688FF7 /* Info.plist */,
 			);
 			path = test_jianshuUITests;
+			sourceTree = "<group>";
+		};
+		B9D479B41D6488C00099E28D /* Appdelegate_FFCustom */ = {
+			isa = PBXGroup;
+			children = (
+				B9D479B51D6488CA0099E28D /* FFCostomTabBar.h */,
+				B9D479B61D6488CA0099E28D /* FFCostomTabBar.m */,
+				B9D479B71D6488CA0099E28D /* FFCostomViewController.h */,
+				B9D479B81D6488CA0099E28D /* FFCostomViewController.m */,
+			);
+			name = Appdelegate_FFCustom;
+			sourceTree = "<group>";
+		};
+		B9D479BC1D6488DE0099E28D /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				B9D479C21D64891D0099E28D /* FF_FindViewController.h */,
+				B9D479C31D64891D0099E28D /* FF_FindViewController.m */,
+			);
+			name = Find;
+			sourceTree = "<group>";
+		};
+		B9D479BE1D6489000099E28D /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				B9D479C81D64892D0099E28D /* FF_MeViewController.h */,
+				B9D479C91D64892D0099E28D /* FF_MeViewController.m */,
+			);
+			name = Me;
+			sourceTree = "<group>";
+		};
+		B9D479BF1D6489050099E28D /* Care */ = {
+			isa = PBXGroup;
+			children = (
+				B9D479C51D6489240099E28D /* FF_CareViewController.h */,
+				B9D479C61D6489240099E28D /* FF_CareViewController.m */,
+			);
+			name = Care;
+			sourceTree = "<group>";
+		};
+		B9D479C01D6489090099E28D /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				B9D479CB1D6489360099E28D /* FF_MessageViewController.h */,
+				B9D479CC1D6489360099E28D /* FF_MessageViewController.m */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		B9D479C11D6489120099E28D /* Write */ = {
+			isa = PBXGroup;
+			children = (
+				B9D479CE1D64893E0099E28D /* FF_WriteViewController.h */,
+				B9D479CF1D64893E0099E28D /* FF_WriteViewController.m */,
+			);
+			name = Write;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,9 +347,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9971D901D6264D900688FF7 /* AppDelegate.m in Sources */,
-				B90ED9651D6271FD0085A075 /* jianshu_TabBarViewController.m in Sources */,
+				B9D479B91D6488CA0099E28D /* FFCostomTabBar.m in Sources */,
+				B9D479C71D6489240099E28D /* FF_CareViewController.m in Sources */,
+				B9D479B31D64888A0099E28D /* AppDelegate.m in Sources */,
 				B9971D8D1D6264D900688FF7 /* main.m in Sources */,
+				B9D479D01D64893E0099E28D /* FF_WriteViewController.m in Sources */,
+				B9D479CD1D6489360099E28D /* FF_MessageViewController.m in Sources */,
+				B9D479CA1D64892E0099E28D /* FF_MeViewController.m in Sources */,
+				B9D479BA1D6488CA0099E28D /* FFCostomViewController.m in Sources */,
+				B9D479C41D64891D0099E28D /* FF_FindViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

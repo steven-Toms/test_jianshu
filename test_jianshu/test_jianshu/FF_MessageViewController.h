@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  FF_MessageViewController.h
 //  FFTestCustomTabBar
 //
 //  Created by mac-Win on 16/8/17.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface FF_MessageViewController : UIViewController
 
 @end
-
