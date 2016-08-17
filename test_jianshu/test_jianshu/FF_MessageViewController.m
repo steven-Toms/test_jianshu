@@ -7,6 +7,8 @@
 //
 
 #import "FF_MessageViewController.h"
+#import "Define.h"
+
 
 @interface FF_MessageViewController ()
 
@@ -16,13 +18,34 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [self setNavRightItem];
+    
     // Do any additional setup after loading the view.
+}
+
+- (void)setNavRightItem
+{
+//    UIBarButtonItem *rightBarButtonItem = [[UIBarButtonItem alloc]initWithImage:MessageNavRightItemImage style:UIBarButtonItemStylePlain target:self action:@selector(clickOnRightItem:)];
+    UIButton *rightBarBtn = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 30, 30)];
+    [rightBarBtn setImage:MessageNavRightItemImage forState:UIControlStateNormal];
+    [rightBarBtn addTarget:self action:@selector(clickOnRightItem:) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *rightBarBtnItem = [[UIBarButtonItem alloc]initWithCustomView:rightBarBtn];
+    self.navigationItem.rightBarButtonItem = rightBarBtnItem;
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+#pragma mark --MessageNavgationRightItemClickEvent
+
+- (void)clickOnRightItem:(UIButton *)clickBtn
+{
+    NSLog( @"%s", __func__ );
+}
+
 
 /*
 #pragma mark - Navigation

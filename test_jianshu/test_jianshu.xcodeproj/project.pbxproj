@@ -67,6 +67,7 @@
 		B9D479CC1D6489360099E28D /* FF_MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FF_MessageViewController.m; sourceTree = "<group>"; };
 		B9D479CE1D64893E0099E28D /* FF_WriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FF_WriteViewController.h; sourceTree = "<group>"; };
 		B9D479CF1D64893E0099E28D /* FF_WriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FF_WriteViewController.m; sourceTree = "<group>"; };
+		B9D479D41D64A1A40099E28D /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +130,7 @@
 				B9971D991D6264D900688FF7 /* LaunchScreen.storyboard */,
 				B9971D9C1D6264D900688FF7 /* Info.plist */,
 				B9971D8B1D6264D900688FF7 /* Supporting Files */,
+				B9D479D41D64A1A40099E28D /* Define.h */,
 			);
 			path = test_jianshu;
 			sourceTree = "<group>";
@@ -200,8 +202,9 @@
 		B9D479C01D6489090099E28D /* Message */ = {
 			isa = PBXGroup;
 			children = (
-				B9D479CB1D6489360099E28D /* FF_MessageViewController.h */,
-				B9D479CC1D6489360099E28D /* FF_MessageViewController.m */,
+				B9D479D31D6496490099E28D /* View */,
+				B9D479D21D6496400099E28D /* Model */,
+				B9D479D11D6496300099E28D /* Controller */,
 			);
 			name = Message;
 			sourceTree = "<group>";
@@ -213,6 +216,29 @@
 				B9D479CF1D64893E0099E28D /* FF_WriteViewController.m */,
 			);
 			name = Write;
+			sourceTree = "<group>";
+		};
+		B9D479D11D6496300099E28D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B9D479CB1D6489360099E28D /* FF_MessageViewController.h */,
+				B9D479CC1D6489360099E28D /* FF_MessageViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B9D479D21D6496400099E28D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B9D479D31D6496490099E28D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
